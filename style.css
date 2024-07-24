@@ -183,8 +183,8 @@ main{
     padding-top: 150px;
 }
 .habit-text h1{
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
+font-size: 3rem;
+color: rgb(255, 255, 255);
 font-family: Inter;
 font-weight: 900;
 line-height: 120%;
@@ -193,16 +193,18 @@ text-align: center;
 margin-bottom: 20px;
 }
 .habit-text p{
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 letter-spacing: 0%;
 text-align: center;
 }
 .habit-img-card{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 .change-habit-card{
     width: auto;
@@ -244,7 +246,7 @@ text-align: center;
     }
     nav{
         margin-bottom: 100px;
-        justify-content: space-between;
+        
     }
     .banner-content{
         flex-direction: column;
