@@ -173,6 +173,61 @@ margin-bottom: 20px;
     right: -25%;
     top: 20%;
 }
+main{
+    background-color: #212121;
+}
+/* change habit section */
+.change-habit-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.habit-text h1{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+.habit-text p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+letter-spacing: 0%;
+text-align: center;
+}
+.habit-img-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.change-habit-card{
+    width: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+.change-habit-card img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.change-habit-card h1{
+    color:white;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.change-habit-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.75rem;
+    text-align: center;
+
+}
 
 
 
@@ -189,10 +244,14 @@ margin-bottom: 20px;
     }
     nav{
         margin-bottom: 100px;
+        justify-content: space-between;
     }
     .banner-content{
         flex-direction: column;
         gap: 30px;
+    }
+    .banner-img-sec{
+        margin-top: 30px;
     }
     .img-card-1{
         position: absolute;
@@ -201,10 +260,11 @@ margin-bottom: 20px;
     }
     .img-card-2{
         position: absolute;
-        right: -8%;
-        top: 5%;
+        right: 0%;
+        top: 0%;
     }
-    .banner-text{
-        padding-left: 15px;
+    .habit-img-card{
+        flex-direction: column;
     }
+    
 }
