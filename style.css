@@ -57,13 +57,17 @@ nav ul li a{
     width: 100%;
     margin: 0 auto;
 }
-.banner-content.banner-text{
+.banner-text{
     width: 30%;
 }
-.banner-content.banner-img-sec{
-    width: 70%;
+.banner-img-sec{
+    width: 40%;
+    border: 1px solid red;
 }
 .banner-img-sec img{
+    width: 90%;
+}
+.banner-img-sec img img{
     width: 100%;
 }
 .banner-text h1{
@@ -93,6 +97,7 @@ margin-bottom: 20px;
     color: white;
     font-weight: bold;
     font-family: Inter;
+    margin-right: 20px;
 }
 .banner-text .btn-2{
     padding: 10px 25px;
@@ -165,16 +170,17 @@ margin-bottom: 20px;
 }
 .img-card-1{
     position: absolute;
-    left: -35%;
-    top: 60%;
+    left: 0%;
+    bottom: 15%;
 }
 .img-card-2{
     position: absolute;
-    right: -25%;
+    right: 20%;
     top: 20%;
 }
 main{
     background-color: black;
+    padding-bottom: 100px;
 }
 /* change habit section */
 .change-habit-container{
@@ -458,7 +464,6 @@ text-align: left
 .team-card-content{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 150px;
     background-color: #222222;
     border-radius: 20px;
 }
@@ -503,6 +508,77 @@ text-align: left
     font-family: Inter;
     font-weight: 400;
 }
+/* footer section */
+footer{
+    background-color:#2e2e2e;
+}
+.footer-container{
+    width: 100%; 
+}
+.footer-content{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-row-1{
+    width: 40%;
+}
+.footer-row-2{
+    width: 20%;
+}
+.footer-row-1 h1{
+    font-size: 4rem;
+    font-family: Inter;
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-row-1 p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter
+}
+.footer-row-2{
+    display: flex;
+    flex-direction: column;
+}
+.footer-row-2 h1{
+    font-size: 2rem;
+    font-family: Inter;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-row-2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 400;
+}
+.footer-row-2 a:hover{
+    text-decoration: underline rebeccapurple 2px;
+}
+.clear-both{
+    clear: both;
+}
+.footer-container .last-part p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-family: Inter; 
+    padding-bottom: 20px; 
+}
+.hr-row{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 
 
 @media screen and (max-width:576px){
@@ -515,7 +591,14 @@ text-align: left
     }
     nav{
         margin-bottom: 100px;
+        justify-content: space-around;
         
+    }
+    .banner-text{
+        width: 70%;
+    }
+    .banner-img-sec{
+        width: 70%;
     }
     .banner-content{
         flex-direction: column;
@@ -582,5 +665,20 @@ text-align: left
     }
     .img{
         width: 90%;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-row-1{
+        width: 60%;
+        padding: 0px;
+    }
+    .footer-row-2{
+        width: 60%;
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .hr-row{
+        width: 70%;
     }
 }
