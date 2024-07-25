@@ -164,6 +164,9 @@ margin-bottom: 20px;
     background: rgb(230, 83, 60);
     border-radius: 80px;
 }
+.sarcel img{
+    display: none;
+}
 .banner-img-sec{
     position: relative;
 }
@@ -588,6 +591,10 @@ footer{
     ul{
         display: none;
     }
+    .sarcel img{
+        display: block;
+
+    }
     nav{
         margin-bottom: 100px;
         justify-content: space-around;
@@ -679,5 +686,8 @@ footer{
     }
     .hr-row{
         width: 70%;
+    }
+    .banner-text .btn-1{
+        margin-bottom: 20px;
     }
 }
