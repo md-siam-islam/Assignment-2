@@ -253,6 +253,8 @@ text-align: center;
 }
 .run-sec-content .run-text{
     width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 .run-text h1{
@@ -489,8 +491,8 @@ text-align: left
 }
 .team-text{
     position: absolute;
-    bottom: 5%;
-    left: 3%;
+    bottom: 8%;
+    left: 5%;
 }
 
 .team-img img{
@@ -597,22 +599,21 @@ footer{
     }
     nav{
         margin-bottom: 100px;
-        justify-content: space-around;
+        justify-content: space-between;
         
     }
     .banner-text{
-        width: 70%;
+        width: 90%;
     }
     .banner-img-sec{
-        width: 70%;
+        width: 90%;
+        margin-top: 30px;
     }
     .banner-content{
         flex-direction: column;
         gap: 30px;
     }
-    .banner-img-sec{
-        margin-top: 30px;
-    }
+    
     .img-card-1{
         position: absolute;
         left: 0%;
@@ -629,34 +630,37 @@ footer{
     /* run section */
     .run-sec-content{
         flex-direction: column;
+        width: 90%;
     }
     .run-sec-content .run-text{
-        width: 80%;
-        padding-left: 20px;
+        width: 90%;
+        /* padding-left: 20px; */
         padding-top: 20px;
     }
     .run-text button{
        width: 80%; 
     }
     .run-sec-content .run-ing-sec{
-        width: 80%;
+        width: 90%;
         padding: 20px 0px;
     }
     
     .bmiheader-text{
-        width: 70%;
+        width: 90%;
     }
     .bmi-content{
         flex-direction: column;
     }
     .table-section{
-        width: 80%;
+        width: 90%;
+        padding: 20px 0px;
     }
     table{
-        width: 90%;
+        width: 100%;
     }
     .calculate-section{
-        width: 80%;
+        width: 90%;
+        padding: 10px 0px;
     }
     .input-section{
         width: 100%;
@@ -667,25 +671,31 @@ footer{
     }
     .img-row{
         grid-template-columns:1fr;
-        padding-left:20px ;
+        padding:10px 20px;
+        
     }
     .img{
         width: 90%;
+        padding: 10px 0px;
     }
     .footer-content{
         flex-direction: column;
     }
     .footer-row-1{
-        width: 60%;
+        width: 90%;
         padding: 0px;
     }
     .footer-row-2{
-        width: 60%;
+        width: 90%;
         padding: 0px;
         margin-top: 30px;
     }
     .hr-row{
-        width: 70%;
+        width: 90%;
+    }
+    .footer-container .last-part p{
+        text-align: left;
+        margin-left: 20px;
     }
     .banner-text .btn-1{
         margin-bottom: 20px;
